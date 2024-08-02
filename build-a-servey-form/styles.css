@@ -1,0 +1,78 @@
+body{
+  background:#f4fffdff;
+background:blur(0.5);
+padding:0;
+margin:0;
+}
+.container{
+  border:black;
+  margin:auto;
+  display:block;
+  
+}
+header{
+  text-align:center;
+}
+#survey-form{
+  
+  background:#011936ff;
+  border:black;
+  margin:50px auto;
+  padding:50px;
+  border-radius:50px;
+  max-width:500px;
+  
+}
+label,p{
+  color:#f4fffdff;
+
+}
+#description , #title{
+  color:#011936ff;
+
+}
+.form-group{
+  text-align:start;
+  display:block;
+  padding:2px;
+  
+}
+input{
+  display:block;
+  padding:5px;
+  width:100%;
+}
+
+.form-group input[type="radio"],
+.form-group input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  
+}
+button:hover{
+  background-color:blue;
+  border-radius:10px;
+  color:white;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
